@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets - NEVER commit these
+.env
+*.env
+*.pem
+*.key
+secrets/
+local.settings.json
+
+# Raw data (lives in ADLS, not Git)
+data/
+*.json.gz
+*.parquet
+*.csv
+
+# IaC state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Power BI cache
+.pbi/
+*.pbix
